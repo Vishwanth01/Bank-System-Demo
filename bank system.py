@@ -68,8 +68,8 @@ class CurrentAccount(Account):
 def main():
     print("=== Banking System Demo ===")
     
-    savings = SavingsAccount("S101", "Prem")
-    current = CurrentAccount("C202", "Chand")
+    savings = SavingsAccount("S101", "SAI")
+    current = CurrentAccount("C202", "VISHWANTH")
 
     for account in (savings, current):  # Polymorphism: same interface for both account types
         account.display_info()
